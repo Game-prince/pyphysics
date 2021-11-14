@@ -1,8 +1,47 @@
 # How to make a python package
 # https://packaging.python.org/tutorials/packaging-projects/
 
-Step 1: update the pip
+#updated the pip
     Unix/Macos:
         python3 -m pip install --upgrade pip
     Windows:
         py -m pip install --upgrate pip
+
+# Essentials for making a physics library
+There are three main aspects of the physics library.
+1. Movement:
+    All the displacements, velocities, accelrations and forces comes under this section.
+    Applying gravity or anti-gravity also comes under this section.
+    For implenting these properties we need understanding of dynamic physics.
+    
+    # Some important equations for the movement and velocity calculations
+        1. v = u + at 
+        2. s = ut + 1/2at^2
+        3. v^2 - u^2 = 2as
+        where v = final velocity
+              u = initial velocity
+              a = accelration
+              s = distance
+    
+    For force and momentum calculation Newton's law are very useful
+    # Newton's laws of motions -
+        Newton's 1st law - An object will not change its state of rest or motion or change its direction until an external force is applied on it.
+        Newtons' 2nd law - The force applied in a body is equal to the change in momemtum in it.
+        Newton's 3rd law - Every force has equal and opposite reaction on it.
+
+    # Different entities in the universe
+    1. space 
+        It is an empty place where different objects will interact with each other.
+        # properties
+            Dimension - width , height
+            Gravity - x-axis, y-axis
+            Drag - air resistance
+            Attraction - Will different elements will have gravity acting on them
+
+    2. objects
+        These are the entities which are present in the space.
+        # properties
+            Mass - 
+            Dimensions -
+            Friction
+            
