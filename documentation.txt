@@ -1,0 +1,8 @@
+# How to make a python package
+# https://packaging.python.org/tutorials/packaging-projects/
+
+Step 1: update the pip
+    Unix/Macos:
+        python3 -m pip install --upgrade pip
+    Windows:
+        py -m pip install --upgrate pip
