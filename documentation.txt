@@ -9,7 +9,9 @@
 
 # Essentials for making a physics library
 There are three main aspects of the physics library.
-1. Movement:
+Dynamics, Collision Detection and Collision Response.
+
+1. Dynamics:
     All the displacements, velocities, accelrations and forces comes under this section.
     Applying gravity or anti-gravity also comes under this section.
     For implenting these properties we need understanding of dynamic physics.
@@ -30,7 +32,7 @@ There are three main aspects of the physics library.
         Newton's 3rd law - Every force has equal and opposite reaction on it.
 
     # Different entities in the universe
-    1. space 
+    1. space (dimension, caption)
         It is an empty place where different objects will interact with each other.
         # properties
             Dimension - width , height
