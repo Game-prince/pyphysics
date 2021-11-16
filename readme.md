@@ -19,6 +19,7 @@ After using this package developers will be able to implement different objects 
 
 
 ### Folder Structure
+```
 pyphysics
 ├── pyphyics
 │   ├── __init__.py
@@ -29,3 +30,4 @@ pyphysics
 ├── README.md
 ├── requirements.txt
 └── setup.py
+```
