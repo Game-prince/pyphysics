@@ -40,10 +40,13 @@ Dynamics, Collision Detection and Collision Response.
             Drag - air resistance
             Attraction - Will different elements will have gravity acting on them
 
-    2. objects
+    2. objects (dimension , position, space)
         These are the entities which are present in the space.
         # properties
             Mass - 
             Dimensions -
             Friction
+            position
+            velocity
+            accelration
             
